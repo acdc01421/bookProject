@@ -12,6 +12,7 @@ public abstract class AbstractDBUtil {
 	protected Connection con;
 	protected PreparedStatement pstmt;
 	protected ResultSet rs;
+	
 	private static Logger logger = Logger.getLogger(AbstractDBUtil.class);
 	
 	
