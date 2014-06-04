@@ -14,8 +14,6 @@ public abstract class AbstractDBUtil {
 	protected ResultSet rs;
 	
 	private static Logger logger = Logger.getLogger(AbstractDBUtil.class);
-	
-	
 	// 외부에선 오로지 doExecute로만 출력
 	// final로 하면 하위서 오버라이드 못한다
 	// 저안에서 try catch final한다
