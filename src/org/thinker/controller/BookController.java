@@ -30,6 +30,7 @@ public class BookController extends ReflectServlet {
 	// 주소에 아무것도 안치고 들어왔을 경우
 	private String doGET(WebRequest request, WebResponse response)
 			throws Exception {
+		
 		logger.info("doGET....");
 		return "redirect:/book/list";
 	}
