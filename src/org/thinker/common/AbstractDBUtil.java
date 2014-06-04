@@ -17,6 +17,7 @@ public abstract class AbstractDBUtil {
 	// 외부에선 오로지 doExecute로만 출력
 	// final로 하면 하위서 오버라이드 못한다
 	// 저안에서 try catch final한다
+	// github test 민수형 바보
 	public final void doExecute() throws Exception {
 		try {
 			makeConnection();
